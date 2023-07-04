@@ -1,0 +1,4 @@
+INDANE GAS 
+ID = 125AUI452
+PRICE = 800rs
+Quantity = 20

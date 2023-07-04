@@ -1,0 +1,4 @@
+USERPAGE ==  ACCEPTS USERNAME,GENDER,CONTACT,NAME,DOB..ACC TYPE...PASSWORDDS ETC
+LOGIN == ACCEPTS USERID,PASSWORD (userid will specify for type of acc)
+dashboard ==  diff compartments of system collected in single place(total emp,total supp,total category,total product, total sales)
+	      supplier details,product category,product details,customer bill reports.

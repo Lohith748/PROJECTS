@@ -1,0 +1,23 @@
+from PyQt5.QtGui import QMovie
+from PyQt5.QtWidgets import QLabel
+from Pyside.Qtwidgets import QApplication,QWidget
+from PySide6.QtGui import QIcon
+import sys
+
+class Window(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        self.setGeometry(100,100,700,500)
+        self.setWindowTitle("Python GUI window")
+        self.setWindowIcon(QIcon('demook/bin.png'))
+
+        label = QLabel(self)
+        movie = QMovie('save.gif')
+        label.setMovie(movie)
+        movie.start()
+
+app = QApplication([])
+window = Window()
+window.show()
+sys.exit(app.exec())
